@@ -119,7 +119,7 @@
     left: -20px;
 }
 .lianxi li{
-    list-style-type: none;
+    list-style: none!important;
 }
 .lianxi a{
     text-decoration: none;
