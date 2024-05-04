@@ -190,3 +190,164 @@
         display: none; /* 当视口宽度小于等于600像素时隐藏元素 */
     }
 }
+
+.shigong{
+    position: absolute;
+    font-size: 120px;
+    top: 10%;
+    left: 30%;
+    right: 50px;
+
+}
+
+.Monday{
+    background-color: #5b9696; /* 设置背景渐变色 */
+    display: inline-block;
+    width: 800px;; /* 可根据需要调整填充值 */
+    height: 50px;
+    color: rgb(223, 226, 35); /* 设置文字颜色为黄色 */
+    top: 200px;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.Monday img {
+    width: 100px; /* 设置图片宽度为200像素 */
+    height: auto; /* 让高度根据宽度自适应，保持比例 */
+  }
+img.zmlc{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+a.zmlc{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    left: 0px;
+    top: 191.5px;
+    width: 88px;
+    height: 30px;
+    font-size: 12px;
+    text-decoration: none;
+}
+.Tuesday{
+    background-color: #ee2121; /* 设置背景渐变色 */
+    display: inline-block;
+    width: 800px;; /* 可根据需要调整填充值 */
+    height: 50px;
+    color: rgb(35, 137, 226); /* 设置文字颜色为黄色 */
+    top: 500px;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+.Wednesday{
+    background-color: #3439d9; /* 设置背景渐变色 */
+    display: inline-block;
+    width: 800px;; /* 可根据需要调整填充值 */
+    height: 50px;
+    color: rgb(226, 70, 35); /* 设置文字颜色为黄色 */
+    top: 800px;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+.Thursday{
+    background-color: #0d580b; /* 设置背景渐变色 */
+    display: inline-block;
+    width: 800px;; /* 可根据需要调整填充值 */
+    height: 50px;
+    color: rgb(194, 35, 226); /* 设置文字颜色为黄色 */
+    top: 1100px;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+.Friday{
+    background-color: #c9eb43; /* 设置背景渐变色 */
+    display: inline-block;
+    width: 800px;; /* 可根据需要调整填充值 */
+    height: 50px;
+    color: rgb(35, 41, 226); /* 设置文字颜色为黄色 */
+    top: 1400px;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+
+.Saturday{
+    background-color: #e22222; /* 设置背景渐变色 */
+    display: inline-block;
+    width: 800px;; /* 可根据需要调整填充值 */
+    height: 50px;
+    color: rgb(9, 91, 23); /* 设置文字颜色为黄色 */
+    top: 1700px;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
+.Saturday img {
+    width: 100px; /* 设置图片宽度为200像素 */
+    height: auto; /* 让高度根据宽度自适应，保持比例 */
+  }
+img.ywsm{
+    position: absolute;
+    left: 0px;
+    top: 50px;
+}
+a.ywsm{
+    border-style: solid;
+    border-width: 1px;
+    border-color: black;
+    background-color: black;
+    color: white;
+    position: absolute;
+    padding: 5px;
+    left: 0px;
+    top: 191.5px;
+    width: 88px;
+    height: 30px;
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.Sunday{
+    background-color: #5b9696; /* 设置背景渐变色 */
+    display: inline-block;
+    width: 800px;; /* 可根据需要调整填充值 */
+    height: 50px;
+    color: rgb(223, 226, 35); /* 设置文字颜色为黄色 */
+    top: 2000px;
+    left: 30%;
+    position: absolute;
+    text-align: center;
+    font-size: 20px;
+    
+
+}
