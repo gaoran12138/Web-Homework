@@ -116,7 +116,7 @@
     position: absolute;
     top: 450px;
     right: 20px;
-    left: -20px;
+    margin-left: 0px;
 }
 .lianxi li{
     list-style: none!important;
