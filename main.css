@@ -1,3 +1,24 @@
+.container {
+    height: 120vh; /* 设置容器的高度为视口高度 */
+    overflow: auto; /* 添加滚动条 */
+    overflow-x: hidden;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+    background-color: gray;
+}
+
+::-webkit-scrollbar-track {
+    background: black;
+    border-radius: 10px;
+}
+
+::-webkit-scrollbar-thumb {
+    background: orange;
+    border-radius: 10px;
+}
+
 .blackbox{
     background-color: black;
     color: white;
@@ -5,10 +26,10 @@
     width: 210px;
     height: 75px;
     padding: 2px;
-    margin-left:10%;
-    margin-right: 35%;
-    position: fixed;
-    top: 0px
+    left:10%;
+    right: 35%;
+    position: absolute;
+    top: 0%
     
     
 }
@@ -17,6 +38,7 @@
     margin-left: 10%;
     margin-right: 10%;
     margin-bottom: 10%;
+    
 }  
 
 .whitebox{
@@ -29,9 +51,142 @@
     width: 210px;
     height: 75px;
     padding: 2px;
-    margin-left:10%;
-    margin-right: 35%;
-    position: fixed;
+    left:10%;
+    right: 35%;
+    position: absolute;
     top: 75px
     
+}
+
+.whitebox a{
+    text-decoration: none;
+    font-size: 15px;
+}
+
+.Aal{
+    position: absolute;
+    min-width: auto;
+    top: 20px;
+    left: 40%;
+    right: 30%;
+}
+
+.Aal p{
+    font-size: 27px;
+}
+
+.jieshao{
+    border-style: solid;
+    border-width: 1px;
+    background-color: white;
+    color: black;
+    box-sizing: border-box;
+    width: 210px;
+    height: 700px;
+    left:10%;
+    right: 35%;
+    position: absolute;
+    top: 200px;
+}
+
+.jieshao img{
+    position: absolute;
+    margin-top: 60px;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.jieshao details{
+    position: absolute;
+    padding: auto;
+    margin-left: 1;
+    margin-top: 130px;
+    font-size: 20px;
+    
+}
+.jieshao details summary{
+    list-style: none;
+    font-size: 20px;
+    color: rgb(96, 95, 160);
+}
+.jieshao details p{
+    font-size: 15px;
+    padding: auto;
+    margin: 20px 20px;
+}
+.lianxi{
+    position: relative;
+    margin-top: 450px;
+    right: 20px;
+}
+
+.jieshao h4{
+    position: absolute;
+    margin-left: 70px;
+    margin-top: 110px;
+    font-size: 15px;
+}
+
+.winter {
+    background-image: url(1920px-SnowMix.jpg);
+    background-size: cover;
+    color: red;
+    text-align: center;
+    box-sizing: border-box;
+    width: 500px;
+    height: 300px;
+    padding: 2px;
+    left: 30%;
+    right: 30%;
+    position: absolute;
+    top: 170px;
+    transition: all 0.3s ease; /* 添加过渡效果，使变化更平滑 */
+}
+
+.winter:hover {
+    opacity: 0.5; /* 设置半透明度 */
+}
+
+.winter h2{
+    color: #e36666;
+    text-shadow: -0.3px -0.2px 0.1px #5576b8, 1px 1px 1px #4967ac;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+.spring{
+    transition:all 0.3s ease;
+    background-image: url(1920px-私は、私達は_BGP.jpg);
+    background-size: cover;
+    color: red;
+    text-align: center;
+    box-sizing: border-box;
+    width: 500px;
+    height: 300px;
+    padding: 2px;
+    left: 30%;
+    right: 30%;
+    position:absolute;
+    top: 550px
+    
+    
+}
+
+.spring:hover {
+    opacity: 0.5; /* 设置半透明度 */
+}
+
+.spring h2{
+    color: #6f7070;
+    text-shadow: -0.4px -0.4px 0.4px #5bcd59, 0.4px 0.4px 0.4px #5bcd59;
+    text-align: center;
+    margin-top: 80px;
+    font-size: 50px;
+}
+
+@media (max-width: 1360px) {
+    .blackbox,.whitebox,.jieshao {
+        display: none; /* 当视口宽度小于等于600像素时隐藏元素 */
+    }
 }
