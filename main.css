@@ -35,10 +35,8 @@
 }
 .blackbox p{
     font-size: 20px;
-    margin-left: 10%;
-    margin-right: 10%;
-    margin-bottom: 10%;
-    
+    position: absolute;
+    left: 10%;
 }  
 
 .whitebox{
