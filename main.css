@@ -114,11 +114,12 @@
 }
 .lianxi{
     position: absolute;
-    margin-top: 450px;
+    top: 450px;
     right: 20px;
+    left: -20px;
 }
 .lianxi li{
-    list-style: none!important;
+    list-style-type: none;
 }
 .lianxi a{
     text-decoration: none;
